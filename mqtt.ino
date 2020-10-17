@@ -9,12 +9,12 @@
 #define MQTT_PORT         1883                    
 #define MQTT_USERNAME    "" 
 #define MQTT_PASSWORD         "" 
-#define left1        13
-#define left2        12
-#define lefts        26
-#define right1       14
-#define right2       27
-#define rights       25
+#define left1        25
+#define left2        13
+#define lefts        20
+#define right1       15
+#define right2       19
+#define rights       20
 #define led   2
 
 // Create an ESP8266 WiFiClient class to connect to the MQTT server. 
