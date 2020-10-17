@@ -1,9 +1,9 @@
-#from __future__ import division
+from __future__ import division
 import cv2
 import numpy as np
 import math
 import time
-#import paho.mqtt.client as mqtt
+import paho.mqtt.client as mqtt
 
 
 start=False
@@ -270,7 +270,7 @@ while True:
             s4=True
     print(ang_car_imgp(), "ang")
 
-   # order(command)
+   # rdoder(command)
     key = cv2.waitKey(50)
     if key == 32:
        start=True
