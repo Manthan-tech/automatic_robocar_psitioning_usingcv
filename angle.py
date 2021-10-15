@@ -25,6 +25,7 @@ start=False
 #client.on_message=on_message
 #client.connect('localhost', 1883,60)
 #client.loop_start()
+#Here is a problem,, just typing for hactober fest PR
     
 def dis_ball_goal():
     dbg=math.sqrt(abs(pow((goal_x-ball_x),2)-pow((goal_y-ball_y),2)))
