@@ -1,20 +1,20 @@
 import cv2
 import numpy as np
-cap = cv2.VideoCapture('http://192.168.43.1:8080/videofeed')
+cap = cv2.VideoCapture('http://192.168.40.2:8080/videofeed')
 
 
 def nothing(x):
     pass
 
 cv2.namedWindow("Trackbars")
-cv2.createTrackbar("L - H", "Trackbars", 0, 255, nothing)
-cv2.createTrackbar("L - S", "Trackbars", 0, 255, nothing)
+cv2.createTrackbar("L - H", "Trackbars", 0, 254, nothing)
+cv2.createTrackbar("L - S", "Trackbars", 0, 254, nothing)
 cv2.createTrackbar("L - V", "Trackbars", 0, 255, nothing)
 cv2.createTrackbar("U - H", "Trackbars", 255, 255, nothing)
 cv2.createTrackbar("U - S", "Trackbars", 255, 255, nothing)
 cv2.createTrackbar("U - V", "Trackbars", 255, 255, nothing)
 cv2.namedWindow("Trackbars_g")
-cv2.createTrackbar("L g H", "Trackbars_g", 0, 255, nothing)
+cv2.createTrackbar("L g H", "Trackbars_g", 0, 254, nothing)
 cv2.createTrackbar("L g S", "Trackbars_g", 0, 255, nothing)
 cv2.createTrackbar("L g V", "Trackbars_g", 0, 255, nothing)
 cv2.createTrackbar("U g H", "Trackbars_g", 255, 255, nothing)
