@@ -90,6 +90,7 @@ void loop() {
      {
      stopp();
      Serial.println("S");
+     Serial.println("Delete this line");
      }
      else if (aa=='B')
      {
