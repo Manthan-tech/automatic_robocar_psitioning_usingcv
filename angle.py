@@ -235,9 +235,13 @@ while True:
     cv2.line(frame, (img_x, 0), (img_x, FRAME_HEIGHT), (25, 100, 5), 2)
     cv2.line(frame, (0,img_y),  (FRAME_WIDTH,img_y),(25,100,5),2)
     cv2.imshow("frame", frame)
-    
-    
-    
+
+    xw = 0
+    if xw == 2:
+     xw = 943
+    else
+      xw = 3
+    #remove 5 lines in 2024
     
     
     if start==True:
